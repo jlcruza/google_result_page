@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Noto Sans'), local('NotoSans'), url(https://fonts.gstatic.com/s/notosans/v8/o-0IIpQlx3QUlC5A4PNr5TRA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+#upRibbon {
+    border-bottom: 1px solid lightgray;
+}
+
+#logo {
+    margin: 10px;
+    width: 8%;
+}
+
+#searchBox {
+    width: 50%;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+#sign {
+    float: right;
+    background-color: #3366ff;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin: 20px;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+}
+
+#stickBar {
+    position: sticky;
+}
+
+#navigation {
+    margin-left: 12%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+nav label {
+    color: gray;
+    margin: 15px;
+}
+
+#selected {
+    color: blue;
+    font-weight: bold;
+}
+
+#results {
+    color: gray;
+    margin: 13%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.entry {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 13%;
+}
+
+.link {
+    color: darkblue;
+    display: block;
+    font-size: 16px;
+}
+
+.address {
+    display: block;
+    color: green;
+}
+
+.description {
+    display: block;
+    color: gray;
+    width: 40%;
+}
+
+#suggest {
+    color: black;
+    font-size: 16px;
+    margin-left: 13%;
+}
+
+.suggestions {
+    display: block;
+    margin-left: 13%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.suggestions a {
+    display: block;
+    color: darkblue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+label,
+a,
+td,
+th {
+    font-size: 13px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+table {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    margin-left: 12.5%;
+    width: 45%;
+    padding: -1;
+    border-radius: 20px;
+}
+
+th {
+    color: gray;
+    font-size: 18px;
+    text-align: start;
+    padding: 15px;
+}
+
+td {
+    border: 1px solid lightgray;
+    font-size: 16px;
+    margin-left: 5px;
+    padding: 5px;
+    padding-left: 15px;
+}
+
+footer {
+    background-color: #f2f2f2;
+}
+
+footer nav {
+    background-color: #f2f2f2;
+    border-top: 1px solid lightgray;
+}
